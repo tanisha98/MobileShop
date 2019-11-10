@@ -11,13 +11,52 @@ body {
 input{
 	    margin: 2em 0 !important;
 }
+@media only screen and (max-width: 650px) {
+.image {
+  max-width: 100% !important;
+  height: 200px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+  display: block;
+  font-size: 120%;
+  padding: 5px 0px 5px 0px;
+  color: black;
+  /* max-height: 127px; */
+  /* height: 69px; */
+}
+.price {
+  display: block;
+  font-size: 100%;
+  padding: 5px 0px 5px 0px;
+  color: black;
+}
+}
+
+@media only screen and (min-width: 650px) {
 .image{
 	max-width: 100% !important;
 	height: 300px !important;
 	display: block; 
 	  margin-left: auto;
   margin-right: auto;
-
+}
+.text{
+  display: block;
+      font-size: 24px;
+      padding: 5px 0px 5px 0px;
+      color: black;
+      /* max-height: 127px; */
+      /* height: 69px; */
+  }
+  .price{
+    display: block;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
+    color:black;
+  }
 }
 .btn-success {
     color: #fff ;
@@ -27,7 +66,9 @@ input{
 	margin-top: 10px !important;
    
 }
-
+.info{
+	background-color: white;
+}
 .box-image{
 background-image: radial-gradient( circle 941px at 3.8% 14.3%,  rgba(128,122,242,1) 19.2%, rgba(102,249,214,1) 75.6% );
 }
@@ -44,28 +85,14 @@ a {
 	font-size: 20px !important;
 }
 */
-.text{
-  display: block;
-  font-size: 24px;
-  padding: 5px 0px 5px 0px;
-  color: black;
-  height: 69px;
-}
-.price{
-	display: block;
-	font-size: 20px;
-	padding: 5px 0px 5px 0px;
-	color:black;
-}
+
 .product{
 	-webkit-box-shadow: 0px 10px 10px 0px;
 	box-shadow: 0px 1px 3px 0px grey;
 	
 }
 .info{
-  background-color: white;
-  padding: 10px;
-  height: 175px;
+	padding: 10px;
 }
 /**
  * Add the correct display in IE 9-.
