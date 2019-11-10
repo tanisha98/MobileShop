@@ -58,7 +58,7 @@ if($status == 'reserved'){
 else{
 
 ?>
-<div class="col-md-4">  
+<div class="col-md-4 col-sm-6 col-xs-6">  
 <div class="products">
 <div class="text-center">
 <div class="product">

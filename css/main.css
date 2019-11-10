@@ -47,10 +47,11 @@ a {
 }
 */
 .text{
-	display: block;
-	font-size: 24px;
-	padding: 5px 0px 5px 0px;
-	color:black;
+  display: block;
+  font-size: 24px;
+  padding: 5px 0px 5px 0px;
+  color: black;
+  height: 69px;
 }
 .price{
 	display: block;
@@ -64,7 +65,8 @@ a {
 	
 }
 .info{
-	padding: 10px;
+  padding: 10px;
+  height: 175px !important;
 }
 /**
  * Add the correct display in IE 9-.
