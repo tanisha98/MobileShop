@@ -27,9 +27,7 @@ input{
 	margin-top: 10px !important;
    
 }
-.info{
-	background-color: white;
-}
+
 .box-image{
 background-image: radial-gradient( circle 941px at 3.8% 14.3%,  rgba(128,122,242,1) 19.2%, rgba(102,249,214,1) 75.6% );
 }
@@ -65,8 +63,9 @@ a {
 	
 }
 .info{
+  background-color: white;
   padding: 10px;
-  height: 175px !important;
+  height: 175px;
 }
 /**
  * Add the correct display in IE 9-.
